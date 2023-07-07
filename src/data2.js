@@ -30,7 +30,7 @@ import TestimonialImg from "./assets/img/about.jpg";
 import Avatar1Img from "./assets/img/avatar-1.png";
 import Avatar2Img from "./assets/img/avatar-2.png";
 import Avatar3Img from "./assets/img/avatar-3.png";
-import Avatar4Img from "./assets/img/avatar-4.png";
+// import Avatar4Img from "./assets/img/avatar-4.png";
 
 export const navigation = [
   {
@@ -60,20 +60,20 @@ export const hero = {
 
 export const stats = [
   {
-    value: "7",
-    text: "Year Experience",
+    value: "42",
+    text: "Tahun Pengalaman",
   },
   {
-    value: "2",
-    text: "Opened in the country",
+    value: "7",
+    text: "Dealer Tersedia",
   },
   {
     value: "10k+",
-    text: "Furniture sold",
+    text: "Mobil terjual",
   },
   {
-    value: "260+",
-    text: "Variant Furniture",
+    value: "20+",
+    text: "Varian Produk",
   },
 ];
 

@@ -19,41 +19,28 @@ import Pwarna1 from "./assets/img/car/Pajero/warna/warna1.png";
 import Pwarna2 from "./assets/img/car/Pajero/warna/warna2.png";
 import Pwarna3 from "./assets/img/car/Pajero/warna/warna3.png";
 
-// import apartments images
-// import Apartment1 from "./assets/img/apartments/a1.png";
-// import Apartment2 from "./assets/img/apartments/a2.png";
-// import Apartment3 from "./assets/img/apartments/a3.png";
-// import Apartment4 from "./assets/img/apartments/a4.png";
-// import Apartment5 from "./assets/img/apartments/a5.png";
-// import Apartment6 from "./assets/img/apartments/a6.png";
-
-// import apartments large images
-// import Apartment1Lg from "./assets/img/apartments/a1lg.png";
-// import Apartment2Lg from "./assets/img/apartments/a2lg.png";
-// import Apartment3Lg from "./assets/img/apartments/a3lg.png";
-// import Apartment4Lg from "./assets/img/apartments/a4lg.png";
-// import Apartment5Lg from "./assets/img/apartments/a5lg.png";
-// import Apartment6Lg from "./assets/img/apartments/a6lg.png";
-
 // import agents images
 import Agent1 from "./assets/img/agents/agent1.png";
 import Agent2 from "./assets/img/agents/agent2.png";
 import Agent3 from "./assets/img/agents/agent3.png";
 import Agent4 from "./assets/img/agents/agent4.png";
-// import Agent5 from "./assets/img/agents/agent5.png";
-// import Agent6 from "./assets/img/agents/agent6.png";
-// import Agent7 from "./assets/img/agents/agent7.png";
-// import Agent8 from "./assets/img/agents/agent8.png";
-// import Agent9 from "./assets/img/agents/agent9.png";
-// import Agent10 from "./assets/img/agents/agent10.png";
-// import Agent11 from "./assets/img/agents/agent11.png";
-// import Agent12 from "./assets/img/agents/agent12.png";
 
 // Tentang Kami
 import TestimonialImg from "./assets/img/testimonial.png";
 import Avatar1Img from "./assets/img/avatar-1.png";
 import Avatar2Img from "./assets/img/avatar-2.png";
 import Avatar3Img from "./assets/img/avatar-3.png";
+
+// Import exterior
+import Pds from "./assets/img/car/Pajero/Exterior/1. dynamic-shield.png";
+import Ppt from "./assets/img/car/Pajero/Exterior/2. power-tailgate.jpg";
+import Phl from "./assets/img/car/Pajero/Exterior/3. head-lamp.png";
+import Pcl from "./assets/img/car/Pajero/Exterior/4. cornering-lamp.jpg";
+import Prl from "./assets/img/car/Pajero/Exterior/5. rear-light.png";
+import Ps from "./assets/img/car/Pajero/Exterior/6. sunroof.png";
+import Pv from "./assets/img/car/Pajero/Exterior/7. velg.png";
+import Pantena from "./assets/img/car/Pajero/Exterior/8. pajero-shark-fin-antenna-dakar-ultimate-4x4.png";
+import Pspoiler from "./assets/img/car/Pajero/Exterior/10. spoiler.jpg";
 
 export const housesData = [
   {
@@ -63,6 +50,44 @@ export const housesData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House1,
+    exterior: [
+      {
+        name: "Dynamic Shield",
+        image: Pds,
+      },
+      {
+        name: "New Power Tailgate with kick Sensors",
+        image: Ppt,
+      },
+      {
+        name: "New Headlamp Design",
+        image: Phl,
+      },
+      {
+        name: "New Active Cornering Lamp",
+        image: Pcl,
+      },
+      {
+        name: "New Rear Combination Lamp",
+        image: Prl,
+      },
+      {
+        name: "Sunroof",
+        image: Ps,
+      },
+      {
+        name: "New 18 inch Sporty Alloy Wheel",
+        image: Pv,
+      },
+      {
+        name: "New Shark Fin Antenna",
+        image: Pantena,
+      },
+      {
+        name: "Sporty Rear Spoiler",
+        image: Pspoiler,
+      },
+    ],
     imageLgg: [
       {
         name: "Black",
@@ -114,6 +139,33 @@ export const housesData = [
       name: "Patricia Tullert",
       phone: "0123 456 78910",
     },
+    // ini varian warna
+    title: "Dapatkan warna terbaikmu",
+    // subtitle: "Dapatkan warna terbaikmu",
+    // link: "Check all",
+    // icon: <IoIosArrowRoundForward />,
+    products: [
+      {
+        name: "Black",
+        image: Pblack,
+      },
+      {
+        name: "Silver",
+        image: Psilver,
+      },
+      {
+        name: "White",
+        image: Pwhite,
+      },
+      {
+        name: "Bronze",
+        image: Pbronze,
+      },
+      {
+        name: "Grey",
+        image: Pgrey,
+      },
+    ],
   },
   {
     id: 2,
