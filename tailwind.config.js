@@ -27,6 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url("/src/assets/img/pajero-home.jpeg")',
+        sejarah: 'url("/src/assets/img/about-sejarah-perusahaan.png")',
         newsletter: 'url("/src/assets/img/newsletter.png")',
       },
       dropShadow: {

@@ -12,7 +12,10 @@ import Home from "./pages/Home";
 import PropertyDetails from "./pages/PropertyDetails";
 import Produk from "./pages/Produk";
 import WhatsAppButton from "./components/WhatsAppButton";
-import About from "./pages/about";
+import TentangKami from "./pages/TentangKami";
+import Contact from "./pages/Contact";
+import Promo from "./pages/Promo";
+import PromoDetails from "./pages/PromoDetails";
 // import Header1 from "./components/Header1";
 
 const App = () => {
@@ -23,8 +26,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/property/:id" element={<PropertyDetails />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/promo/:id" element={<PromoDetails />} />
+        <Route path="/tentangkami" element={<TentangKami />} />
         <Route path="/produk" element={<Produk />} />
+        <Route path="/kontak" element={<Contact />} />
+        <Route path="/promo" element={<Promo />} />
       </Routes>
       <WhatsAppButton />
       <Footer />

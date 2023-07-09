@@ -30,6 +30,8 @@ import TestimonialImg from "./assets/img/about.jpg";
 import Avatar1Img from "./assets/img/avatar-1.png";
 import Avatar2Img from "./assets/img/avatar-2.png";
 import Avatar3Img from "./assets/img/avatar-3.png";
+
+import logo from "./assets/img/logo1.png";
 // import Avatar4Img from "./assets/img/avatar-4.png";
 
 export const navigation = [
@@ -49,6 +51,10 @@ export const navigation = [
     name: "contact",
     href: "contact",
   },
+  {
+    name: "promo",
+    href: "promo",
+  },
 ];
 
 export const hero = {
@@ -56,6 +62,23 @@ export const hero = {
   subtitle:
     "PT Bosowa Berlian Motor (BBM) Telah menjadi dealer resmi dari PT Mitsubishi Motors Krama Yudha Sales Indonesia (MMKSI) Agen Pemegang Merek Mitsubishi Motor di Indonesia, kerjasama ini telah berlangsung sejak Tahun 1980 sampai sekarang.",
   buttonText: "Explore",
+};
+
+export const sejarah = {
+  title: "Berlian Motor",
+  subtitle:
+    "PT Bosowa Berlian Motor (BBM) Telah menjadi dealer resmi dari PT Mitsubishi Motors Krama Yudha Sales Indonesia (MMKSI) Agen Pemegang Merek Mitsubishi Motor di Indonesia, kerjasama ini telah berlangsung sejak Tahun 1980 sampai sekarang.",
+  buttonText: "Explore",
+};
+
+export const sejarah1 = {
+  title: "PT BOSOWA BERLIAN MOTOR",
+  subtitle1:
+    "Perusahaan ini bermula dari sebuah perusahaan yang bergerak di bidang perdagangan umum bernama CV Moneter di kota Makassar, Sulawesi Selatan, pada 22 Februari 1973 oleh Aksa Mahmud.",
+  subtitle2:
+    "Pada tahun 1978, perusahaan itu mendapatkan hak eksklusif sebagai dealer resmi mobil produksi Jepang yakni Datsun untuk kawasan timur Indonesia. Pada tahun yang sama, nama perusahaan diganti menjadi PT Moneter Motor.",
+  subtitle3:
+    "Pada Oktober 1980, PT Moneter Motor mendapatkan kepercayaan dari Mitsubishi Motors menjadi sales dan distributor mobil merek Mitsubishi untuk kawasan timur Indonesia. Perusahaan ini kemudian berganti nama menjadi PT Bosowa Berlian Motor yang menjadi tonggak penting mengawali kemajuan Bosowa Corp. Nama Bosowa berasal dari singkatan nama tiga kabupaten di Sulawesi Selatan, yaitu Bone, Soppeng dan Wajo.",
 };
 
 export const stats = [
@@ -79,23 +102,22 @@ export const stats = [
 
 export const features = {
   image: <Features1Img />,
-  title: "We Create your home more aesthetic",
+  title: "Miftach Farid",
   subtitle:
-    "Furniture power is a software as services for multipurpose business management system",
+    "“Pemimpin yang baik bukanlah orang yang hanya mencari pengakuan pribadi, tetapi seseorang yang menginspirasi dan memotivasi timnya untuk mencapai kesuksesan bersama.”",
   buttonText: "Show Now",
   items: [
     {
       icon: <IoIosCheckmarkCircle />,
-      title: "Valuation Services",
-      subtitle:
-        "Sometimes features require a short description.  This can be detailed description",
+      title: "UNIVERSITAS KOMPUTER INDONESIA",
+      subtitle: "Teknik Informatika",
     },
-    {
-      icon: <IoIosCheckmarkCircle />,
-      title: "Development of Furniture Models",
-      subtitle:
-        "Sometimes features require a short description.  This can be detailed description",
-    },
+    // {
+    //   icon: <IoIosCheckmarkCircle />,
+    //   title: "Development of Furniture Models",
+    //   subtitle:
+    //     "Sometimes features require a short description.  This can be detailed description",
+    // },
   ],
   feature2: {
     image: <Features2Img />,
@@ -291,25 +313,25 @@ export const testimonial = {
   image: <TestimonialImg />,
   persons: [
     {
-      avatar: <Avatar1Img />,
-      name: "Josh Smith",
-      occupation: "Manager of The New York Times",
+      // avatar: <logo />,
+      name: "1973",
+      // occupation: "Manager of The New York Times",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "Perusahaan yang bergerak di bidang perdagangan umum bernama CV Moneter (Dealer Datsun) di Makassar, Sulawesi Selatan",
     },
     {
       avatar: <Avatar2Img />,
-      name: "Brandi Johns",
+      name: "1978",
       occupation: "Manager of The New York Times",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "Mendapatkan hak ekslusif sebagai dealer resmi mobil produksi Jepang yakni Datsun untuk Kawasan Indonesia Timur. Pada tahun yang sama, nama perusahaan diganti menjadi PT Moneter Motor.",
     },
     {
       avatar: <Avatar3Img />,
-      name: "Paula Pfeffer",
+      name: "1980",
       occupation: "Manager of The New York Times",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "PT Moneter Motor mendapatkan kepercayaan dari Mitsubishi Motors menjadi sales dan distributor mobil merek Mitsubishi untuk kawasan timur Indonesia.",
     },
   ],
 };

@@ -5,8 +5,8 @@ import React from "react";
 // import HouseList from "../components/HouseList";
 // import Stats from "../components/Stats";
 // import Hero from "../components/Hero";
-import NewItems from "../components/NewItems";
-import Newsletter from "../components/Newsletter";
+// import NewItems from "../components/NewItems";
+// import Newsletter from "../components/Newsletter";
 import Hero from "../components/Hero";
 import Products from "../components/Products";
 
@@ -17,7 +17,7 @@ const Home = () => {
       <Hero />
       <Products />
       {/* <NewItems /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
       {/* <HouseList /> */}
     </div>
   );

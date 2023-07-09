@@ -1,14 +1,14 @@
 import React from "react";
 
 // import data
-import { products } from "../data2";
+import { productMobil } from "../data";
 
 // import components
 import ProductSlider from "../components/ProductSlider";
 
 const Products = () => {
   // destructure products
-  const { title, subtitle } = products;
+  const { title, subtitle } = productMobil;
   return (
     <section className="section text-center">
       <div className="container mx-auto">

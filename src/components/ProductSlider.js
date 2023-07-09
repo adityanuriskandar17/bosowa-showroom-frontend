@@ -14,20 +14,20 @@ import "../slider.css";
 import { Navigation, Pagination } from "swiper";
 
 // import data
-import { products } from "../data2";
+import { productMobil } from "../data";
 
 // import icons
 import { HiPlus } from "react-icons/hi";
 
 const ProductSlider = () => {
   // destructure products
-  const { pages } = products;
+  const { pages } = productMobil;
   return (
     <Swiper
       modules={[Pagination, Navigation]}
       pagination={{ clickable: true }}
       navigation={true}
-      className="productSlider min-h-[1300px]"
+      className="productSlider min-h-[800px]"
     >
       {pages.map((page, index) => {
         return (
@@ -43,17 +43,17 @@ const ProductSlider = () => {
                   >
                     <div className="border hover:border-accent rounded-[18px] w-full max-w-[285px] h-full max-h-[292px] flex items-center justify-center mb-[15px] relative transition">
                       <img src={image.type} alt="" />
-                      <div className="absolute bottom-4 right-[22px] bg-gray-200 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:bg-gray-300 transition">
+                      {/* <div className="absolute bottom-4 right-[22px] bg-gray-200 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:bg-gray-300 transition">
                         <HiPlus className="text-xl text-primary" />
-                      </div>
+                      </div> */}
                     </div>
                     <div className="font-semibold lg:text-xl">{name}</div>
-                    <div className="flex items-center gap-x-3">
+                    {/* <div className="flex items-center gap-x-3">
                       <div>Rp.{price}</div>
                       <div className="text-[15px] text-grey line-through">
                         Rp.{oldPrice}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 );
               })}

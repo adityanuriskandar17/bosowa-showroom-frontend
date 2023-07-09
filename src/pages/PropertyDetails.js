@@ -47,52 +47,18 @@ const PropertyDetails = () => {
     <section className="py-0">
       <Thumbnail />
       <div className="container mx-auto min-h-screen">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-          <div>
-            <h2 className="text-2xl font-semibold mb-1">{house.name}</h2>
-            <div className="bg-red-500 text-white px-3 rounded-full mb-2">
-              {house.type}
-            </div>
-          </div>
-          <div className="mb-4 lg:mb-0 flex gap-x-2 text-sm">
-            {/* <div className="bg-violet-500 text-white px-3 rounded-full">
-              {house.country}
-            </div> */}
-          </div>
-          <div className="text-3xl font-semibold text-black">
-            Mulai Dari <br />
-            {house.price}
-          </div>
-        </div>
         <div className="flex flex-col ">
           <div className="max-w-full">
-            <div className="mb-10">
-              <Slider {...settings}>
-                {house.imageLgg.map((img, index) => (
-                  <div key={index}>
-                    <div className="flex flex-col min-h-[250px]">
-                      <div className="flex items-center mb-0">
-                        <p className="font-extrabold text-4xl bg-gray-700 text-white max-w-[200px] px-2 py-4 rounded-l rounded-full text-center">
-                          {img.name}
-                        </p>
-                        <img
-                          src={img.image}
-                          alt={img.name}
-                          className="object-contain w-full h-full lg:h-[500px] flex-shrink-0"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </Slider>
-            </div>
+            <h2 className="text-2xl lg:text-[40px] font-semibold mb-4 text-center">
+              Warna
+            </h2>
             <NewItems />
             <Lineup />
             {/* INTERIOR */}
             <div className="font-bold text-2xl lg:text-4xl">INTERIOR</div>
             <div className="mb-10">
               <Slider {...settings}>
-                {house.exterior.map((img, index) => (
+                {house.interior.map((img, index) => (
                   <div key={index}>
                     <div className="flex flex-col min-h-[250px]">
                       <div className="flex items-center justify-between mb-8">
