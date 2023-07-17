@@ -18,8 +18,11 @@ const Thumbnail = () => {
   const house = housesData.find((house) => house.id === parseInt(id));
   // const { title, subtitle, buttonText } = hero;
   return (
-    <section className="h-[850px] w-full bg-hero bg-right bg-cover bg-no-repeat text-gray-100 pt-[111px] pb-[354px] relative mb-24 lg:bg-center lg:mb-28">
-      <div className="container mx-auto text-left">
+    <section
+      className="h-[850px] w-full bg-right bg-cover bg-no-repeat text-gray-100 pt-[111px] pb-[354px] relative mb-24 lg:bg-center lg:mb-28"
+      style={{ backgroundImage: `url(${house.big})` }}
+    >
+      <div className="container ml-24 text-left pt-16">
         {/* title */}
         <h1 className="text-4xl lg:text-6xl font-bold mb-2 leading-tight lg:leading-snug max-w-[888px]">
           {house.name}

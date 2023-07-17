@@ -66,19 +66,14 @@ const PropertyDetails = () => {
                           <img
                             src={img.image}
                             alt={img.name}
-                            className="object-contain w-full h-full lg:h-[500px] flex-shrink-0"
+                            className="object-contain w-full h-full lg:h-[500px] flex-shrink-0 rounded-3xl"
                           />
                         </div>
-                        <div className="flex flex-col ml-8">
+
+                        <div className="flex flex-col ">
                           <div className="text-xl font-semibold">
                             {img.name}
                           </div>
-                          <p className="text-sm lg:text-xs">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ab deserunt quos, at ipsam velit itaque odit
-                            repellendus, suscipit ea nulla reiciendis sed quidem
-                            aut placeat quae, error fugiat. Accusamus, animi.
-                          </p>
                         </div>
                       </div>
                     </div>
@@ -98,18 +93,12 @@ const PropertyDetails = () => {
                           <div className="text-xl font-semibold">
                             {img.name}
                           </div>
-                          <p className="text-sm lg:text-xs">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ab deserunt quos, at ipsam velit itaque odit
-                            repellendus, suscipit ea nulla reiciendis sed quidem
-                            aut placeat quae, error fugiat. Accusamus, animi.
-                          </p>
                         </div>
                         <div className="flex flex-col ml-8">
                           <img
                             src={img.image}
                             alt={img.name}
-                            className="object-contain w-full h-full lg:h-[500px] flex-shrink-0"
+                            className="object-contain w-full h-full lg:h-[500px] flex-shrink-0 rounded-3xl"
                           />
                         </div>
                       </div>

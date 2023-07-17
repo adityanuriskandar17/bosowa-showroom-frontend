@@ -1,6 +1,10 @@
 // import promo image
 import PromoJuli from "./assets/img/promo/PROMO-JULI.jpg";
 import logo from "./assets/img/logo1.png";
+import BigPajero from "./assets/img/pajero-home.jpeg";
+import BigXpander from "./assets/img/xpander-th.jpg";
+import BigTriton from "./assets/img/triton-th.jpg";
+import BigL300 from "./assets/img/l300-th.jpg";
 
 // import house images
 import House1 from "./assets/img/car/pajero1.png";
@@ -8,7 +12,32 @@ import House2 from "./assets/img/car/triton1.png";
 import House3 from "./assets/img/car/xpander1.png";
 import House4 from "./assets/img/car/l3001.png";
 
+// Triton warna
+import TriSilver from "./assets/img/car/Triton/triton-silver.jpeg";
+import TriBlack from "./assets/img/car/Triton/triton-black.jpeg";
+import TriRed from "./assets/img/car/Triton/triton-red.jpeg";
+import TriWhite from "./assets/img/car/Triton/triton-white.jpeg";
+import TriGrey from "./assets/img/car/Triton/triton-grey.jpeg";
+
+//L300 warna
+import Ltiga from "./assets/img/car/L-300/l300-bed.png";
+import LChassis from "./assets/img/car/L-300/l300-chassis.jpg";
+
+// Xpander Cross warna
+import XCsilver from "./assets/img/car/Xpander Cross/xpander-c-blade-silver.jpg";
+import XCgray from "./assets/img/car/Xpander Cross/xpander-c-graphite-gray.jpg";
+import XCgbronze from "./assets/img/car/Xpander Cross/xpander-c-green-bronze.jpg";
+import XCblack from "./assets/img/car/Xpander Cross/xpander-c-jet-black.jpg";
+
+// Xpander warna
+import Xblack from "./assets/img/car/Xpander/xpander-black.png";
+import Xwhite from "./assets/img/car/Xpander/xpander-white.png";
+import Xgrey from "./assets/img/car/Xpander/xpander-grey.png";
+import Xred from "./assets/img/car/Xpander/xpander-red.png";
+import Xsilver from "./assets/img/car/Xpander/xpander-silver.png";
+
 // import house large images
+// Pajero varian warna
 import Pblack from "./assets/img/car/Pajero/pajero-black.png";
 import Psilver from "./assets/img/car/Pajero/pajero-silver.png";
 import Pwhite from "./assets/img/car/Pajero/pajero-white.png";
@@ -35,7 +64,107 @@ import Avatar1Img from "./assets/img/avatar-1.png";
 import Avatar2Img from "./assets/img/avatar-2.png";
 import Avatar3Img from "./assets/img/avatar-3.png";
 
-// Import exterior
+// Import Exterior L-300
+import ELsatu from "./assets/img/car/L-300/exterior/1.jpeg";
+import ELdua from "./assets/img/car/L-300/exterior/2.jpeg";
+
+// Import Interior L-300
+import ILsatu from "./assets/img/car/L-300/interior/1.jpeg";
+import ILdua from "./assets/img/car/L-300/interior/2.jpeg";
+import ILtiga from "./assets/img/car/L-300/interior/3.jpeg";
+import ILempat from "./assets/img/car/L-300/interior/3.jpg";
+import ILlima from "./assets/img/car/L-300/interior/4.jpeg";
+
+// Import Exterior Triton
+import ETsatu from "./assets/img/car/Triton/exterior/1.jpg";
+import ETdua from "./assets/img/car/Triton/exterior/2.jpg";
+import ETtiga from "./assets/img/car/Triton/exterior/3.jpg";
+import ETempat from "./assets/img/car/Triton/exterior/4.jpg";
+import ETlima from "./assets/img/car/Triton/exterior/5.jpg";
+import ETenam from "./assets/img/car/Triton/exterior/6.jpg";
+import ETtujuh from "./assets/img/car/Triton/exterior/7.jpg";
+import ETdelapan from "./assets/img/car/Triton/exterior/8.jpg";
+import ETsembilan from "./assets/img/car/Triton/exterior/9.jpg";
+import ETsepuluh from "./assets/img/car/Triton/exterior/10.jpg";
+
+// Import Interior Triton
+import ITsatu from "./assets/img/car/Triton/interior/1.jpg";
+import ITdua from "./assets/img/car/Triton/interior/2.jpg";
+import ITtiga from "./assets/img/car/Triton/interior/3.jpg";
+import ITempat from "./assets/img/car/Triton/interior/4.jpg";
+import ITlima from "./assets/img/car/Triton/interior/5.jpg";
+import ITenam from "./assets/img/car/Triton/interior/6.jpg";
+import ITtujuh from "./assets/img/car/Triton/interior/7.jpg";
+import ITdelapan from "./assets/img/car/Triton/interior/8.jpg";
+import ITsembilan from "./assets/img/car/Triton/interior/9.jpg";
+import ITsepuluh from "./assets/img/car/Triton/interior/10.jpg";
+import ITsebelas from "./assets/img/car/Triton/interior/11.jpg";
+import ITduabelas from "./assets/img/car/Triton/interior/12.jpg";
+import ITtigabelas from "./assets/img/car/Triton/interior/13.jpg";
+import ITempatbelas from "./assets/img/car/Triton/interior/14.jpg";
+
+// Import Interior Xpander Cross
+import IXCsatu from "./assets/img/car/Xpander Cross/interior/1. new-8-inch-color-lcd-meter-at-2xjpg.jpg";
+import IXCdua from "./assets/img/car/Xpander Cross/interior/2. new-steering-wheel-at-2xjpg.jpg";
+import IXCtiga from "./assets/img/car/Xpander Cross/interior/3. new-around-view-monitor-at-2xjpg.jpg";
+import IXCempat from "./assets/img/car/Xpander Cross/interior/4. new-wireless-charging-at-2xjpg.jpg";
+import IXClima from "./assets/img/car/Xpander Cross/interior/5. micron-air-filtration-at-2xjpg.jpg";
+import IXCenam from "./assets/img/car/Xpander Cross/interior/6. dual-tone-synthetic-leather-seat-with-heat-guard-at-2xjpgjpg.jpg";
+import IXCtujuh from "./assets/img/car/Xpander Cross/interior/7. new-electric-parking-brake-epb-with-brake-auto-hold-bahjpgjpg.jpg";
+import IXCdelapan from "./assets/img/car/Xpander Cross/interior/8. head-unit-at-2xjpg.jpg";
+import IXCsembilan from "./assets/img/car/Xpander Cross/interior/9. horizontal-axis-design-dashboard-with-soft-pad-material-at-2xjpg.jpg";
+import IXCsepuluh from "./assets/img/car/Xpander Cross/interior/10. seat-back-pockets-at-2xjpg.jpg";
+import IXCsebelas from "./assets/img/car/Xpander Cross/interior/11. luggage-under-trayjpgjpg.jpg";
+import IXCduabelas from "./assets/img/car/Xpander Cross/interior/12. 2nd-row-arm-rest-with-cup-holderjpgjpg.jpg";
+import IXCtigabelas from "./assets/img/car/Xpander Cross/interior/13. stop-button-kosjpgjpg.jpg";
+import IXCempatbelas from "./assets/img/car/Xpander Cross/interior/14. softpad-materialjpgjpg.jpg";
+import IXClimabelas from "./assets/img/car/Xpander Cross/interior/15. closed-storage-box-cvtjpgjpgjpg.jpg";
+import IXCenambelas from "./assets/img/car/Xpander Cross/interior/16. new-2nd-row-dual-usb-portsjpgjpg.jpg";
+import IXCtujuhbelas from "./assets/img/car/Xpander Cross/interior/17. instrument-panel-side-pocketjpgjpg.jpg";
+import IXCdelapanbelas from "./assets/img/car/Xpander Cross/interior/18. tilt-and-telescopic-steeringjpgjpg.jpg";
+import IXCsembilanbelas from "./assets/img/car/Xpander Cross/interior/19. new-digital-acjpgjpg.jpg";
+
+// Import Exterior Xpander Cross
+import EXCsatu from "./assets/img/car/Xpander Cross/exterior/1. new-front-bumper-front.jpg";
+import EXCdua from "./assets/img/car/Xpander Cross/exterior/2. new-rear-bumper-xpandercross-at-2xjpg.jpg";
+import EXCtiga from "./assets/img/car/Xpander Cross/exterior/3. new-rear-tailgate-xpandercross-at-2xjpg.jpg";
+import EXCempat from "./assets/img/car/Xpander Cross/exterior/4. new-17-inch-alloy-wheel-design-at-2xjpgjpg.jpg";
+import EXClima from "./assets/img/car/Xpander Cross/exterior/5. new-wheel-arch-moulding-side-body-garnish-design-at-2xjpgjpg.jpg";
+import EXCenam from "./assets/img/car/Xpander Cross/exterior/6. new-headlight-xpandercross-at-2xjpg.jpg";
+import EXCtujuh from "./assets/img/car/Xpander Cross/exterior/7. new-rear-stoplamp-xpandercross-at-2xjpg.jpg";
+import EXCdelapan from "./assets/img/car/Xpander Cross/exterior/8. led-foglamp-at-2xjpgjpg.jpg";
+import EXCsembilan from "./assets/img/car/Xpander Cross/exterior/9. spacious-luggage-at-2xjpgjpg.jpg";
+import EXCsepuluh from "./assets/img/car/Xpander Cross/exterior/10. roof-rail-at-2xjpgjpg.jpg";
+
+// Import Exterior Xpander
+import EXsatu from "./assets/img/car/Xpander/exterior/1. new-front-bumper-grille-designjpg.jpg";
+import EXdua from "./assets/img/car/Xpander/exterior/2. new-t-shape-head-lightjpg.jpg";
+import EXtiga from "./assets/img/car/Xpander/exterior/3.jpg";
+import EXempat from "./assets/img/car/Xpander/exterior/4.jpg";
+import EXlima from "./assets/img/car/Xpander/exterior/5.jpg";
+import EXenam from "./assets/img/car/Xpander/exterior/6.jpg";
+import EXtujuh from "./assets/img/car/Xpander/exterior/7.jpg";
+
+//Import Interior Xpander
+import IXsatu from "./assets/img/car/Xpander/interior/1.jpg";
+import IXdua from "./assets/img/car/Xpander/interior/2.jpg";
+import IXtiga from "./assets/img/car/Xpander/interior/3.jpg";
+import IXempat from "./assets/img/car/Xpander/interior/4.jpg";
+import IXlima from "./assets/img/car/Xpander/interior/5.jpg";
+import IXenam from "./assets/img/car/Xpander/interior/6.jpg";
+import IXtujuh from "./assets/img/car/Xpander/interior/7.jpg";
+import IXdelapan from "./assets/img/car/Xpander/interior/8.jpg";
+import IXsembilan from "./assets/img/car/Xpander/interior/9.jpg";
+import IXsepuluh from "./assets/img/car/Xpander/interior/10.jpg";
+import IXsebelas from "./assets/img/car/Xpander/interior/11.jpg";
+import IXduabelas from "./assets/img/car/Xpander/interior/12.jpg";
+import IXtigabelas from "./assets/img/car/Xpander/interior/13.jpg";
+import IXempatbelas from "./assets/img/car/Xpander/interior/14.jpg";
+import IXlimabelas from "./assets/img/car/Xpander/interior/15.jpg";
+import IXenambelas from "./assets/img/car/Xpander/interior/16.jpg";
+import IXtujuhbelas from "./assets/img/car/Xpander/interior/17.jpg";
+
+// Import exterior Pajero
 import Pds from "./assets/img/car/Pajero/Exterior/1. dynamic-shield.png";
 import Ppt from "./assets/img/car/Pajero/Exterior/2. power-tailgate.jpg";
 import Phl from "./assets/img/car/Pajero/Exterior/3. head-lamp.png";
@@ -46,7 +175,7 @@ import Pv from "./assets/img/car/Pajero/Exterior/7. velg.png";
 import Pantena from "./assets/img/car/Pajero/Exterior/8. pajero-shark-fin-antenna-dakar-ultimate-4x4.png";
 import Pspoiler from "./assets/img/car/Pajero/Exterior/10. spoiler.jpg";
 
-// Import interior
+// Import interior Pajero
 import Pdb from "./assets/img/car/Pajero/Interior/1. pajero-dashboard-dakar-ultimate-sunroof-opened.jpg";
 import Plc from "./assets/img/car/Pajero/Interior/2. lcdjpg.jpg";
 import Phu from "./assets/img/car/Pajero/Interior/3. head-unitjpg.jpg";
@@ -68,6 +197,7 @@ export const housesData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House1,
+    big: BigPajero,
     exterior: [
       {
         name: "Dynamic Shield",
@@ -238,133 +368,162 @@ export const housesData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House2,
+    big: BigTriton,
     exterior: [
       {
-        name: "Dynamic Shield",
-        image: Pds,
+        name: "Black Paint Radiator Grille",
+        image: ETsatu,
       },
       {
-        name: "New Power Tailgate with kick Sensors",
-        image: Ppt,
+        name: "Black Paint Step Bumper & Rear Gate Handle",
+        image: ETdua,
       },
       {
-        name: "New Headlamp Design",
-        image: Phl,
+        name: "Black Outer Door Handles",
+        image: ETtiga,
       },
       {
-        name: "New Active Cornering Lamp",
-        image: Pcl,
+        name: "Black Power Door Mirrors",
+        image: ETempat,
       },
       {
-        name: "New Rear Combination Lamp",
-        image: Prl,
+        name: "Black Paint Front Under Garnish",
+        image: ETlima,
       },
       {
-        name: "Sunroof",
-        image: Ps,
+        name: "Black Paint Side Steps",
+        image: ETenam,
       },
       {
-        name: "New 18 inch Sporty Alloy Wheel",
-        image: Pv,
+        name: "Cargo with Bed Liner",
+        image: ETtujuh,
       },
       {
-        name: "New Shark Fin Antenna",
-        image: Pantena,
+        name: "Black Paint Headlamp Garnish",
+        image: ETdelapan,
       },
       {
-        name: "Sporty Rear Spoiler",
-        image: Pspoiler,
+        name: "18inch Alloy Wheels (Ultimate)",
+        image: ETsembilan,
+      },
+      {
+        name: "17inch Alloy Wheels (EXceed)",
+        image: ETsepuluh,
       },
     ],
     interior: [
       {
-        name: "Tough and Luxury Interior",
-        image: Pdb,
+        name: "New Leather Interior",
+        image: ITsatu,
       },
       {
-        name: "New 8 Inch Color LCD Meter",
-        image: Plc,
+        name: "Multi Information LCD Display and Speedometer High-Contrast",
+        image: ITdua,
       },
       {
-        name: "Head Unit With Smartphone Link Dispplay Audio",
-        image: Phu,
+        name: "Premium Wide 2DIN Entertainment System/USB & MP3 Player",
+        image: ITtiga,
       },
       {
-        name: "New Auto Dimming Rear View Mirror",
-        image: P4r,
+        name: "Cruise Control   ",
+        image: ITempat,
       },
       {
-        name: "Stylish Floor Console with Soft Pad",
-        image: Pst,
+        name: "Wide Open Spaces",
+        image: ITlima,
       },
       {
-        name: "Dual Zone Automatic AC",
-        image: Pdz,
+        name: "4-Spoke Leather-Wrapped Steering Wheel",
+        image: ITenam,
       },
       {
-        name: "Electric Parking Brake +New Brake Auto Hold",
-        image: Pepb,
+        name: "Tilt & Telescopic Steering",
+        image: ITtujuh,
       },
       {
-        name: "Comfortable Interior Side",
-        image: Pifd,
+        name: "Auto Dimming Rearview Mirror",
+        image: ITdelapan,
       },
       {
-        name: "2nd Row Power Outlet",
-        image: Prpo,
+        name: "Automatic AC",
+        image: ITsembilan,
       },
       {
-        name: "Comfortable 2nd Row Seat with Arm Rest & Cup Holder",
-        image: Pisd,
+        name: "Smartphone Tray and USB Charging Socket in Center Console",
+        image: ITsepuluh,
       },
       {
-        name: "Roof Monitor",
-        image: Plcd,
+        name: "Cup Holder in Front Seat",
+        image: ITsebelas,
       },
       {
-        name: "Spacious Baggage",
-        image: Psb,
+        name: "Smartphone Tray for rear seat passenger",
+        image: ITduabelas,
+      },
+      {
+        name: "Keyless Operation System",
+        image: ITtigabelas,
+      },
+      {
+        name: "Parking Guide",
+        image: ITempatbelas,
       },
     ],
     imageLgg: [
       {
         name: "Black",
-        image: Pblack,
+        image: TriBlack,
       },
       {
         name: "Silver",
-        image: Psilver,
+        image: TriSilver,
+      },
+      {
+        name: "Red",
+        image: TriRed,
       },
       {
         name: "White",
-        image: Pwhite,
-      },
-      {
-        name: "Bronze",
-        image: Pbronze,
+        image: TriWhite,
       },
       {
         name: "Grey",
-        image: Pgrey,
+        image: TriGrey,
       },
     ],
     // country: "United States",
 
     lineup: [
       {
-        nama: "Dakar Ultimate (4X4) AT",
-        harga: "Rp.723.500.000",
+        nama: "Triton ULTIMATE AT Double cab 4WD",
+        harga: "Rp.510.000.000",
         warna: Pwarna1,
       },
       {
-        nama: "Dakar Ultimate (4X2) AT",
-        harga: "Rp.675.600.000",
+        nama: "Triton EXCEED MT Double cab 4WD",
+        harga: "Rp.468.750.000",
         warna: Pwarna1,
       },
-      { nama: "Dakar (4X2) AT", harga: "Rp.625.900.000", warna: Pwarna1 },
-      { nama: "Exceed (4X2) AT", harga: "Rp.567.300.000", warna: Pwarna2 },
-      { nama: "Exceed (4X2) MT", harga: "Rp.552.100.000", warna: Pwarna2 },
-      { nama: "GLX (4X4) MT", harga: "Rp.577.600.000", warna: Pwarna3 },
+      {
+        nama: "Triton GLS MT Double cab 4WD",
+        harga: "Rp.434.600.000",
+        warna: Pwarna1,
+      },
+      {
+        nama: "Triton HDX MT Double cab 4WD",
+        harga: "Rp.412.450.000",
+        warna: Pwarna2,
+      },
+      {
+        nama: "Triton HDX MT Single cab 4WD",
+        harga: "Rp.363.350.000",
+        warna: Pwarna2,
+      },
+      {
+        nama: "Triton GLX HR MT Single Cab 2WD",
+        harga: "Rp.287.150.000",
+        warna: Pwarna3,
+      },
     ],
     imageLg: House2Lg,
     // country: "Canada",
@@ -387,23 +546,23 @@ export const housesData = [
     products: [
       {
         name: "Black",
-        image: Pblack,
+        image: TriBlack,
       },
       {
         name: "Silver",
-        image: Psilver,
+        image: TriSilver,
       },
       {
         name: "White",
-        image: Pwhite,
+        image: TriWhite,
       },
       {
-        name: "Bronze",
-        image: Pbronze,
+        name: "Red",
+        image: TriRed,
       },
       {
         name: "Grey",
-        image: Pgrey,
+        image: TriGrey,
       },
     ],
   },
@@ -414,6 +573,7 @@ export const housesData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House3,
+    big: BigXpander,
     imageLg: House3Lg,
     // country: "United States",
     address: "New Xpander",
@@ -429,152 +589,166 @@ export const housesData = [
     },
     exterior: [
       {
-        name: "Dynamic Shield",
-        image: Pds,
+        name: "New Front Bumper Grille Design",
+        image: EXsatu,
       },
       {
-        name: "New Power Tailgate with kick Sensors",
-        image: Ppt,
+        name: "New T-Shape Head Light",
+        image: EXdua,
       },
       {
-        name: "New Headlamp Design",
-        image: Phl,
+        name: "New 17inch Two Tone Alloy Wheel",
+        image: EXtiga,
       },
       {
-        name: "New Active Cornering Lamp",
-        image: Pcl,
+        name: "New Rear Design",
+        image: EXempat,
       },
       {
-        name: "New Rear Combination Lamp",
-        image: Prl,
+        name: "New T-shape Tail Light",
+        image: EXlima,
       },
       {
-        name: "Sunroof",
-        image: Ps,
+        name: "Spacious Luggage",
+        image: EXenam,
       },
       {
-        name: "New 18 inch Sporty Alloy Wheel",
-        image: Pv,
-      },
-      {
-        name: "New Shark Fin Antenna",
-        image: Pantena,
-      },
-      {
-        name: "Sporty Rear Spoiler",
-        image: Pspoiler,
+        name: "Rear Window Defogger",
+        image: EXtujuh,
       },
     ],
     interior: [
       {
-        name: "Tough and Luxury Interior",
-        image: Pdb,
+        name: "New Horizontal Axis Design Dashboard with Soft Pad Material",
+        image: IXsatu,
       },
       {
-        name: "New 8 Inch Color LCD Meter",
-        image: Plc,
+        name: "New Horizontal Axis Design Dashboard (Sport)",
+        image: IXdua,
       },
       {
-        name: "Head Unit With Smartphone Link Dispplay Audio",
-        image: Phu,
+        name: "New Meter Cluster Design With Opening Animation",
+        image: IXtiga,
       },
       {
-        name: "New Auto Dimming Rear View Mirror",
-        image: P4r,
+        name: "New Door Trim with Soft Touch and Real Stitches",
+        image: IXempat,
       },
       {
-        name: "Stylish Floor Console with Soft Pad",
-        image: Pst,
+        name: "New 8inch Audio Head Unit with Smartphone Connectivity",
+        image: IXlima,
       },
       {
-        name: "Dual Zone Automatic AC",
-        image: Pdz,
+        name: "New Digital AC",
+        image: IXenam,
       },
       {
-        name: "Electric Parking Brake +New Brake Auto Hold",
-        image: Pepb,
+        name: "Front Console Tray with Card Holder, USB Port, Power Outlet and Wireless Charger",
+        image: IXtujuh,
       },
       {
-        name: "Comfortable Interior Side",
-        image: Pifd,
+        name: "New CVT Transmission",
+        image: IXdelapan,
       },
       {
-        name: "2nd Row Power Outlet",
-        image: Prpo,
+        name: "New Electric Parking Brake (EPB) with Brake Auto Hold (BAH)",
+        image: IXsembilan,
       },
       {
-        name: "Comfortable 2nd Row Seat with Arm Rest & Cup Holder",
-        image: Pisd,
+        name: "New Floor Console with Arm Rest",
+        image: IXsepuluh,
       },
       {
-        name: "Roof Monitor",
-        image: Plcd,
+        name: "Rear Usb Charging Port On Floor Console",
+        image: IXsebelas,
       },
       {
-        name: "Spacious Baggage",
-        image: Psb,
+        name: "New Armrest with Cup Holder on 2nd Row",
+        image: IXduabelas,
+      },
+      {
+        name: "3rd Row Power Outlet",
+        image: IXtigabelas,
+      },
+      {
+        name: "Cruise Control",
+        image: IXempatbelas,
+      },
+      {
+        name: "Rear Camera",
+        image: IXlimabelas,
+      },
+      {
+        name: "KOS + Start Stop Engine Button",
+        image: IXenambelas,
+      },
+      {
+        name: "Tilt & Telescopic Steering",
+        image: IXtujuhbelas,
       },
     ],
     imageLgg: [
       {
         name: "Black",
-        image: Pblack,
+        image: Xblack,
       },
       {
         name: "Silver",
-        image: Psilver,
+        image: Xsilver,
       },
       {
         name: "White",
-        image: Pwhite,
+        image: Xwhite,
       },
       {
-        name: "Bronze",
-        image: Pbronze,
+        name: "Red",
+        image: Xred,
       },
       {
         name: "Grey",
-        image: Pgrey,
+        image: Xgrey,
       },
     ],
     // country: "United States",
 
     lineup: [
       {
-        nama: "Dakar Ultimate (4X4) AT",
-        harga: "Rp.723.500.000",
+        nama: "Ultimate CVT",
+        harga: "Rp.312.900.000",
         warna: Pwarna1,
       },
       {
-        nama: "Dakar Ultimate (4X2) AT",
-        harga: "Rp.675.600.000",
+        nama: "Sport CVT",
+        harga: "Rp.309.500.000",
         warna: Pwarna1,
       },
-      { nama: "Dakar (4X2) AT", harga: "Rp.625.900.000", warna: Pwarna1 },
-      { nama: "Exceed (4X2) AT", harga: "Rp.567.300.000", warna: Pwarna2 },
-      { nama: "Exceed (4X2) MT", harga: "Rp.552.100.000", warna: Pwarna2 },
-      { nama: "GLX (4X4) MT", harga: "Rp.577.600.000", warna: Pwarna3 },
+      { nama: "Sport MT", harga: "Rp.294.850.000", warna: Pwarna1 },
+      { nama: "Exceed CVT", harga: "Rp.280.700.000", warna: Pwarna2 },
+      { nama: "Exceed MT", harga: "Rp.271.500.000", warna: Pwarna2 },
+      { nama: "GLS CVT", harga: "Rp.267.400.000", warna: Pwarna3 },
+      { nama: "GLS MT", harga: "Rp.258.200.000", warna: Pwarna3 },
     ],
+    title: "Dapatkan warna terbaikmu",
     products: [
       {
         name: "Black",
-        image: Pblack,
+        image: Xblack,
       },
       {
         name: "Silver",
-        image: Psilver,
+        image: Xsilver,
       },
       {
         name: "White",
-        image: Pwhite,
+        image: Xwhite,
       },
       {
-        name: "Bronze",
-        image: Pbronze,
+        name: "Red",
+        image: Xred,
       },
       {
         name: "Grey",
-        image: Pgrey,
+        image: Xgrey,
       },
     ],
   },
@@ -585,6 +759,7 @@ export const housesData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     image: House4,
+    big: BigL300,
     imageLg: House4Lg,
     // country: "Canada",
     address: "L-300",
@@ -600,152 +775,65 @@ export const housesData = [
     },
     exterior: [
       {
-        name: "Dynamic Shield",
-        image: Pds,
+        name: "Desain Grille Baru",
+        image: ELsatu,
       },
       {
-        name: "New Power Tailgate with kick Sensors",
-        image: Ppt,
-      },
-      {
-        name: "New Headlamp Design",
-        image: Phl,
-      },
-      {
-        name: "New Active Cornering Lamp",
-        image: Pcl,
-      },
-      {
-        name: "New Rear Combination Lamp",
-        image: Prl,
-      },
-      {
-        name: "Sunroof",
-        image: Ps,
-      },
-      {
-        name: "New 18 inch Sporty Alloy Wheel",
-        image: Pv,
-      },
-      {
-        name: "New Shark Fin Antenna",
-        image: Pantena,
-      },
-      {
-        name: "Sporty Rear Spoiler",
-        image: Pspoiler,
+        name: "Desain Bumper Baru",
+        image: ELdua,
       },
     ],
     interior: [
       {
-        name: "Tough and Luxury Interior",
-        image: Pdb,
+        name: "Kabin Luas dan Lega",
+        image: ILsatu,
       },
       {
-        name: "New 8 Inch Color LCD Meter",
-        image: Plc,
+        name: "Assist Grip",
+        image: ILdua,
       },
       {
-        name: "Head Unit With Smartphone Link Dispplay Audio",
-        image: Phu,
+        name: "Audio Head Unit",
+        image: ILtiga,
       },
       {
-        name: "New Auto Dimming Rear View Mirror",
-        image: P4r,
+        name: "New Meter Cluster",
+        image: ILempat,
       },
       {
-        name: "Stylish Floor Console with Soft Pad",
-        image: Pst,
-      },
-      {
-        name: "Dual Zone Automatic AC",
-        image: Pdz,
-      },
-      {
-        name: "Electric Parking Brake +New Brake Auto Hold",
-        image: Pepb,
-      },
-      {
-        name: "Comfortable Interior Side",
-        image: Pifd,
-      },
-      {
-        name: "2nd Row Power Outlet",
-        image: Prpo,
-      },
-      {
-        name: "Comfortable 2nd Row Seat with Arm Rest & Cup Holder",
-        image: Pisd,
-      },
-      {
-        name: "Roof Monitor",
-        image: Plcd,
-      },
-      {
-        name: "Spacious Baggage",
-        image: Psb,
+        name: "Speaker Doortrim",
+        image: ILlima,
       },
     ],
     imageLgg: [
       {
         name: "Black",
-        image: Pblack,
-      },
-      {
-        name: "Silver",
-        image: Psilver,
-      },
-      {
-        name: "White",
-        image: Pwhite,
-      },
-      {
-        name: "Bronze",
-        image: Pbronze,
-      },
-      {
-        name: "Grey",
-        image: Pgrey,
+        image: Ltiga,
       },
     ],
     // country: "United States",
 
     lineup: [
       {
-        nama: "Dakar Ultimate (4X4) AT",
-        harga: "Rp.723.500.000",
+        nama: "Pick Up Flat Deck",
+        harga: "Rp.222.150.000",
         warna: Pwarna1,
       },
       {
-        nama: "Dakar Ultimate (4X2) AT",
-        harga: "Rp.675.600.000",
+        nama: "Cab Chassis",
+        harga: "Rp.217.150.000",
         warna: Pwarna1,
       },
-      { nama: "Dakar (4X2) AT", harga: "Rp.625.900.000", warna: Pwarna1 },
-      { nama: "Exceed (4X2) AT", harga: "Rp.567.300.000", warna: Pwarna2 },
-      { nama: "Exceed (4X2) MT", harga: "Rp.552.100.000", warna: Pwarna2 },
-      { nama: "GLX (4X4) MT", harga: "Rp.577.600.000", warna: Pwarna3 },
     ],
+    title: "Pilih tipemu",
     products: [
       {
-        name: "Black",
-        image: Pblack,
+        name: "Bed",
+        image: Ltiga,
       },
       {
-        name: "Silver",
-        image: Psilver,
-      },
-      {
-        name: "White",
-        image: Pwhite,
-      },
-      {
-        name: "Bronze",
-        image: Pbronze,
-      },
-      {
-        name: "Grey",
-        image: Pgrey,
+        name: "Chassis",
+        image: LChassis,
       },
     ],
   },
@@ -826,39 +914,39 @@ export const productMobil = {
     {
       productList: [
         {
-          image: <Pblack />,
-          // icon: Psilver,
-          name: "Pajero Black",
-          price: 75,
-          oldPrice: 82,
+          image: <TriSilver />,
+          // icon: <IoMdAddCircle />,
+          name: "Triton",
+          price: 200,
+          oldPrice: 210,
         },
         {
-          image: <Psilver />,
+          image: <Xsilver />,
           // icon: <IoMdAddCircle />,
-          name: "Pajero Silver",
+          name: "New Xpander",
           price: 50,
           oldPrice: 70,
         },
         {
           image: <Pwhite />,
           // icon: Pbronze,
-          name: "Pajero White",
+          name: "New Pajero Sport",
           price: 105,
           oldPrice: 120,
         },
         {
-          image: <Pbronze />,
+          image: <Ltiga />,
           // icon: <IoMdAddCircle />,
-          name: "Pajero Bronze",
+          name: "L-300",
           price: 75,
           oldPrice: 82,
         },
         {
-          image: <Pgrey />,
-          // icon: <IoMdAddCircle />,
-          name: "Pajero Grey",
-          price: 200,
-          oldPrice: 210,
+          image: <XCgbronze />,
+          // icon: Psilver,
+          name: "New Xpander Cross",
+          price: 75,
+          oldPrice: 82,
         },
       ],
     },
