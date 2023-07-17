@@ -49,10 +49,12 @@ const PropertyDetails = () => {
       <div className="container mx-auto min-h-screen">
         <div className="flex flex-col ">
           <div className="max-w-full">
-            <h2 className="text-2xl lg:text-[40px] font-semibold mb-4 text-center">
-              Warna
-            </h2>
-            <NewItems />
+            {house.id !== 5 && (
+              <h2 className="text-2xl lg:text-[40px] font-semibold mb-4 text-center">
+                Warna
+              </h2>
+            )}
+            {house.id !== 5 && <NewItems />}
             <Lineup />
             {/* INTERIOR */}
             <div className="font-bold text-2xl lg:text-4xl">INTERIOR</div>

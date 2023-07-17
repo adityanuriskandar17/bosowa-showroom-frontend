@@ -3,14 +3,16 @@ import PromoJuli from "./assets/img/promo/PROMO-JULI.jpg";
 import logo from "./assets/img/logo1.png";
 import BigPajero from "./assets/img/pajero-home.jpeg";
 import BigXpander from "./assets/img/xpander-th.jpg";
+import BigXpanderCross from "./assets/img/XpanderC1.png";
 import BigTriton from "./assets/img/triton-th.jpg";
 import BigL300 from "./assets/img/l300-th.jpg";
 
 // import house images
-import House1 from "./assets/img/car/pajero1.png";
-import House2 from "./assets/img/car/triton1.png";
-import House3 from "./assets/img/car/xpander1.png";
-import House4 from "./assets/img/car/l3001.png";
+import PajeroCard from "./assets/img/car/pajero1.png";
+import TritonCard from "./assets/img/car/triton1.png";
+import XpanderCard from "./assets/img/car/xpander1.png";
+import XpanderCrossCard from "./assets/img/car/Xpander1C.jpg";
+import L300Card from "./assets/img/car/l3001.png";
 
 // Triton warna
 import TriSilver from "./assets/img/car/Triton/triton-silver.jpeg";
@@ -196,7 +198,7 @@ export const housesData = [
     name: "New Pajero Sport",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
-    image: House1,
+    image: PajeroCard,
     big: BigPajero,
     exterior: [
       {
@@ -367,7 +369,7 @@ export const housesData = [
     name: "Triton",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
-    image: House2,
+    image: TritonCard,
     big: BigTriton,
     exterior: [
       {
@@ -572,7 +574,7 @@ export const housesData = [
     name: "New Xpander",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
-    image: House3,
+    image: XpanderCard,
     big: BigXpander,
     imageLg: House3Lg,
     // country: "United States",
@@ -754,11 +756,204 @@ export const housesData = [
   },
   {
     id: 4,
+    type: "Passenger Car",
+    name: "New Xpander Cross",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+    image: XpanderCrossCard,
+    big: BigXpanderCross,
+    imageLg: House3Lg,
+    // country: "United States",
+    address: "New Xpander",
+    bedrooms: "1499 CC",
+    bathrooms: "7",
+    surface: "Bensin",
+    year: "2016",
+    price: "RP. 316.750.000",
+    agent: {
+      image: Agent3,
+      name: "Amado Smith",
+      phone: "0123 456 78910",
+    },
+    exterior: [
+      {
+        name: "New Front Bumper & Front Grille",
+        image: EXCsatu,
+      },
+      {
+        name: "Rear Powerful Bumper Design",
+        image: EXCdua,
+      },
+      {
+        name: "New Tailgate Garnish",
+        image: EXCtiga,
+      },
+      {
+        name: "New 17 Inch Alloy Wheel Design",
+        image: EXCempat,
+      },
+      {
+        name: "New Wheel Arch Moulding & Side Body Garnish Design",
+        image: EXClima,
+      },
+      {
+        name: "New T-Shape Head Light",
+        image: EXCenam,
+      },
+      {
+        name: "New T-Shape Tail Light",
+        image: EXCtujuh,
+      },
+      {
+        name: "LED Foglamp",
+        image: EXCdelapan,
+      },
+      {
+        name: "Spacious Luggage",
+        image: EXCsembilan,
+      },
+      {
+        name: "Roof Rail",
+        image: EXCsepuluh,
+      },
+    ],
+    interior: [
+      {
+        name: "New 8 inch LCD Meter Cluster",
+        image: IXCsatu,
+      },
+      {
+        name: "New Steering Wheel Design",
+        image: IXCdua,
+      },
+      {
+        name: "New Multi Around Monitor",
+        image: IXCtiga,
+      },
+      {
+        name: "New Wireless Charger",
+        image: IXCempat,
+      },
+      {
+        name: "New Micron Air Filtration",
+        image: IXClima,
+      },
+      {
+        name: "Dual Tone Synthetic Leather Seat with Heat Guard",
+        image: IXCenam,
+      },
+      {
+        name: "Electric Parking Brake (EPB) with Brake Auto Hold (BAH)",
+        image: IXCtujuh,
+      },
+      {
+        name: "9 inch Audio Head Unit with Smartphone Connectivity",
+        image: IXCdelapan,
+      },
+      {
+        name: "Horizontal Axis Design Dashboard with Soft Pad Material",
+        image: IXCsembilan,
+      },
+      {
+        name: "Multifunction Seat Back Pockets (Driver + Passenger)",
+        image: IXCsepuluh,
+      },
+      {
+        name: "Luggage Under Tray",
+        image: IXCsebelas,
+      },
+      {
+        name: "2nd Row Armrest with Cup Holder",
+        image: IXCduabelas,
+      },
+      {
+        name: "KOS + Start Stop Engine Button",
+        image: IXCtigabelas,
+      },
+      {
+        name: "Softpad Material",
+        image: IXCempatbelas,
+      },
+      {
+        name: "Floor Console with Armrest",
+        image: IXClimabelas,
+      },
+      {
+        name: "2nd Row USB Ports",
+        image: IXCenambelas,
+      },
+      {
+        name: "Instrument Panel Side Pocket",
+        image: IXCtujuhbelas,
+      },
+      {
+        name: "Tilt and Telescopic Steering",
+        image: IXCdelapanbelas,
+      },
+      {
+        name: "Digital AC",
+        image: IXCsembilanbelas,
+      },
+    ],
+    imageLgg: [
+      {
+        name: "Black",
+        image: XCblack,
+      },
+      {
+        name: "Silver",
+        image: XCsilver,
+      },
+      {
+        name: "Green Bronze",
+        image: XCgbronze,
+      },
+      {
+        name: "Grey",
+        image: XCgray,
+      },
+    ],
+    // country: "United States",
+
+    lineup: [
+      {
+        nama: "Premium CVT",
+        harga: "Rp.342.650.000",
+        warna: Pwarna1,
+      },
+      {
+        nama: "MT",
+        harga: "Rp.316.750.000",
+        warna: Pwarna1,
+      },
+    ],
+    title: "Dapatkan warna terbaikmu",
+    products: [
+      {
+        name: "Black",
+        image: XCblack,
+      },
+      {
+        name: "Silver",
+        image: XCsilver,
+      },
+      {
+        name: "Green Bronze",
+        image: XCgbronze,
+      },
+      {
+        name: "Grey",
+        image: XCgray,
+      },
+    ],
+  },
+  {
+    id: 5,
     type: "Light Commercial Vehicle",
     name: "L-300",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
-    image: House4,
+    image: L300Card,
     big: BigL300,
     imageLg: House4Lg,
     // country: "Canada",
@@ -825,16 +1020,24 @@ export const housesData = [
         warna: Pwarna1,
       },
     ],
-    title: "Pilih tipemu",
+    title: "Dapatkan warna terbaikmu",
     products: [
       {
-        name: "Bed",
+        name: "Black",
         image: Ltiga,
       },
-      {
-        name: "Chassis",
-        image: LChassis,
-      },
+      // {
+      //   name: "Silver",
+      //   image: LChassis,
+      // },
+      // {
+      //   name: "Green Bronze",
+      //   image: XCgbronze,
+      // },
+      // {
+      //   name: "Grey",
+      //   image: XCgray,
+      // },
     ],
   },
 ];
