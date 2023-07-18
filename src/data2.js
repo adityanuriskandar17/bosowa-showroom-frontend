@@ -337,8 +337,8 @@ export const testimonial = {
 };
 
 export const newsletter = {
-  title: "Get more discount Off your order",
-  subtitle: "Join our mailing list",
+  title: "Dapatkan Promo Menarik! Hanya di Bosowa Berlian Motor",
+  subtitle: "Tunggu apalagi buruan order!",
   placeholder: "Your email address",
   buttonText: "Shop Now",
 };

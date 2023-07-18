@@ -7,26 +7,7 @@ const Newsletter = () => {
   // desctructure newsletter
   const { title, subtitle, placeholder, buttonText } = newsletter;
   return (
-    <section className="section bg-newsletter min-h-[490px] mb-5">
-      <div className="container mx-auto flex justify-center lg:justify-end">
-        <div className="w-full max-w-[558px] text-center text-white lg:text-left">
-          <h2 className="text-4xl font-semibold max-w-[350px] mx-auto lg:mx-0 mb-5 leading-normal">
-            {title}
-          </h2>
-          <p className="text-xl font-light mb-10">{subtitle}</p>
-          <div className="flex flex-col lg:flex-row gap-[22px]">
-            <input
-              className="h-[60px] px-6 outline-none placeholder:text-gray-400 text-gray-600 rounded-lg lg:flex-1"
-              type="text"
-              placeholder={placeholder}
-            />
-            <button className="bg-primary h-[60px] hover:bg-slate-900 px-7 rounded-lg font-medium text-xl transition">
-              {buttonText}
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section className="h-64 lg:h-96 w-full bg-newsletter bg-right bg-cover bg-no-repeat text-gray-100 pt-16 pb-40 relative mb-24 lg:bg-center lg:mb-28"></section>
   );
 };
 

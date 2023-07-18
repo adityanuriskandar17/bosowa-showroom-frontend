@@ -1050,11 +1050,39 @@ export const promoData = [
     bulan: "Juli",
     name: "New Pajero Sport",
     merk: "Mitsubishi",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+    description1:
+      "PT Bosowa Berlian Motor, Dealer resmi kendaraan Mitsubishi Motors di Indonesia Timur, kembali menyelenggarakan program penjualan menarik untuk anda yang melakukan pembelian kendaraan Mitsubishi pada Juli 2023",
+    description2:
+      "Pada periode JULI 2023 ini PT Bosowa Berlian Motor  memberikan berbagai kemudahan dalam melakukan pembelian dan proses kepemilikan kendaraan melalui program penjualan menarik untuk konsumen yang ingin melakukan pembelian kendaraan di bulan JULI 2023.",
     image: PromoJuli,
-    // price: "RP. 545.600.000",
-    // ini varian warna
+
+    mobil: [
+      {
+        nama: "New Xpander Cross",
+        keterangan: [
+          {
+            title:
+              "Program Cashback hingga jutaan rupiah berlaku untuk semua varian (S&K berlaku)",
+          },
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle:
+              "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+          },
+          {
+            title:
+              "Gratis kaca film V-Kool untuk variant Premium CVT dan kaca film Konica Minolta atau Solargard untuk variant MT.",
+          },
+          {
+            title:
+              "Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun:",
+            subtitle:
+              "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+          },
+        ],
+      },
+    ],
   },
 ];
 
