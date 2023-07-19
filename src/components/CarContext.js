@@ -4,9 +4,9 @@ import React, { useState, useEffect, createContext } from "react";
 import { housesData } from "../data";
 
 // create context
-export const HouseContext = createContext();
+export const CarContext = createContext();
 
-const HouseContextProvider = ({ children }) => {
+const CarContextProvider = ({ children }) => {
   const [houses, setHouses] = useState(housesData);
   const [country, setCountry] = useState("Location (any)");
   const [countries, setCountries] = useState([]);
@@ -21,7 +21,7 @@ const HouseContextProvider = ({ children }) => {
       return house.country;
     });
     // remove duplicates
-    const uniqueCountries = ["Location (any)", ...new Set(allCountries)];
+    const uniqueCountries = ["Car (any)", ...new Set(allCountries)];
     console.log(uniqueCountries);
     // set countries state
     setCountries(uniqueCountries);
@@ -33,7 +33,7 @@ const HouseContextProvider = ({ children }) => {
       return house.type;
     });
     // remove duplicates
-    const uniqueProperties = ["Location (any)", ...new Set(allProperties)];
+    const uniqueProperties = ["Car (any)", ...new Set(allProperties)];
     console.log(uniqueProperties);
     // set properties state
     setProperties(uniqueProperties);
@@ -113,7 +113,7 @@ const HouseContextProvider = ({ children }) => {
   };
 
   return (
-    <HouseContext.Provider
+    <CarContext.Provider
       value={{
         country,
         setCountry,
@@ -129,8 +129,8 @@ const HouseContextProvider = ({ children }) => {
       }}
     >
       {children}
-    </HouseContext.Provider>
+    </CarContext.Provider>
   );
 };
 
-export default HouseContextProvider;
+export default CarContextProvider;

@@ -5,10 +5,10 @@ import { BsFillCarFrontFill } from "react-icons/bs";
 // import headless ui
 import { Menu } from "@headlessui/react";
 // import house context
-import { HouseContext } from "./HouseContext";
+import { CarContext } from "./CarContext";
 
 const PropertyDropdown = () => {
-  const { property, setProperty, properties } = useContext(HouseContext);
+  const { property, setProperty, properties } = useContext(CarContext);
 
   const [isOpen, setIsOpen] = useState(false);
 

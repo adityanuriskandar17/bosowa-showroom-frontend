@@ -49,22 +49,36 @@ import House2Lg from "./assets/img/car/triton1lg.jpeg";
 import House3Lg from "./assets/img/car/xpander1lg.jpg";
 import House4Lg from "./assets/img/car/l3001lg.jpg";
 
-// import warna
+// import warna Pajero
 import Pwarna1 from "./assets/img/car/Pajero/warna/warna1.png";
 import Pwarna2 from "./assets/img/car/Pajero/warna/warna2.png";
 import Pwarna3 from "./assets/img/car/Pajero/warna/warna3.png";
 
+// import warna Xpander
+import Xwarna1 from "./assets/img/car/Xpander/warna/warna1.png";
+import Xwarna2 from "./assets/img/car/Xpander/warna/warna2.png";
+
+// import warna Xpander Cross
+import XCwarna1 from "./assets/img/car/Xpander Cross/warna/warna1.png";
+
+// import warna Triton
+import Twarna1 from "./assets/img/car/Triton/warna/warna1.png";
+import Twarna2 from "./assets/img/car/Triton/warna/warna2.png";
+
+// import warna L300
+import Lwarna1 from "./assets/img/car/L-300/warna/warna1.png";
+
 // import agents images
-import Agent1 from "./assets/img/agents/agent1.png";
-import Agent2 from "./assets/img/agents/agent2.png";
-import Agent3 from "./assets/img/agents/agent3.png";
-import Agent4 from "./assets/img/agents/agent4.png";
+// import Agent1 from "./assets/img/agents/agent1.png";
+// import Agent2 from "./assets/img/agents/agent2.png";
+// import Agent3 from "./assets/img/agents/agent3.png";
+// import Agent4 from "./assets/img/agents/agent4.png";
 
 // Tentang Kami
-import TestimonialImg from "./assets/img/testimonial.png";
-import Avatar1Img from "./assets/img/avatar-1.png";
-import Avatar2Img from "./assets/img/avatar-2.png";
-import Avatar3Img from "./assets/img/avatar-3.png";
+// import TestimonialImg from "./assets/img/testimonial.png";
+// import Avatar1Img from "./assets/img/avatar-1.png";
+// import Avatar2Img from "./assets/img/avatar-2.png";
+// import Avatar3Img from "./assets/img/avatar-3.png";
 
 // Import Exterior L-300
 import ELsatu from "./assets/img/car/L-300/exterior/1.jpeg";
@@ -333,11 +347,11 @@ export const housesData = [
     surface: "Diesel",
     year: "2016",
     price: "RP. 545.600.000",
-    agent: {
-      image: Agent1,
-      name: "Patricia Tullert",
-      phone: "0123 456 78910",
-    },
+    // agent: {
+    //   image: Agent1,
+    //   name: "Patricia Tullert",
+    //   phone: "0123 456 78910",
+    // },
     // ini varian warna
     title: "Dapatkan warna terbaikmu",
     products: [
@@ -499,32 +513,32 @@ export const housesData = [
       {
         nama: "Triton ULTIMATE AT Double cab 4WD",
         harga: "Rp.510.000.000",
-        warna: Pwarna1,
+        warna: Twarna1,
       },
       {
         nama: "Triton EXCEED MT Double cab 4WD",
         harga: "Rp.468.750.000",
-        warna: Pwarna1,
+        warna: Twarna1,
       },
       {
         nama: "Triton GLS MT Double cab 4WD",
         harga: "Rp.434.600.000",
-        warna: Pwarna1,
+        warna: Twarna2,
       },
       {
         nama: "Triton HDX MT Double cab 4WD",
         harga: "Rp.412.450.000",
-        warna: Pwarna2,
+        warna: Twarna2,
       },
       {
         nama: "Triton HDX MT Single cab 4WD",
         harga: "Rp.363.350.000",
-        warna: Pwarna2,
+        warna: Twarna2,
       },
       {
         nama: "Triton GLX HR MT Single Cab 2WD",
         harga: "Rp.287.150.000",
-        warna: Pwarna3,
+        warna: Twarna2,
       },
     ],
     imageLg: House2Lg,
@@ -535,11 +549,11 @@ export const housesData = [
     surface: "Diesel",
     year: "2016",
     price: "RP. 283.550.000",
-    agent: {
-      image: Agent2,
-      name: "Daryl Hawker",
-      phone: "0123 456 78910",
-    },
+    // agent: {
+    //   image: Agent2,
+    //   name: "Daryl Hawker",
+    //   phone: "0123 456 78910",
+    // },
     // ini varian warna
     title: "Dapatkan warna terbaikmu",
     // subtitle: "Dapatkan warna terbaikmu",
@@ -584,11 +598,11 @@ export const housesData = [
     surface: "Bensin",
     year: "2016",
     price: "RP. 257.400.000",
-    agent: {
-      image: Agent3,
-      name: "Amado Smith",
-      phone: "0123 456 78910",
-    },
+    // agent: {
+    //   image: Agent3,
+    //   name: "Amado Smith",
+    //   phone: "0123 456 78910",
+    // },
     exterior: [
       {
         name: "New Front Bumper Grille Design",
@@ -717,18 +731,18 @@ export const housesData = [
       {
         nama: "Ultimate CVT",
         harga: "Rp.312.900.000",
-        warna: Pwarna1,
+        warna: Xwarna1,
       },
       {
         nama: "Sport CVT",
         harga: "Rp.309.500.000",
-        warna: Pwarna1,
+        warna: Xwarna1,
       },
-      { nama: "Sport MT", harga: "Rp.294.850.000", warna: Pwarna1 },
-      { nama: "Exceed CVT", harga: "Rp.280.700.000", warna: Pwarna2 },
-      { nama: "Exceed MT", harga: "Rp.271.500.000", warna: Pwarna2 },
-      { nama: "GLS CVT", harga: "Rp.267.400.000", warna: Pwarna3 },
-      { nama: "GLS MT", harga: "Rp.258.200.000", warna: Pwarna3 },
+      { nama: "Sport MT", harga: "Rp.294.850.000", warna: Xwarna1 },
+      { nama: "Exceed CVT", harga: "Rp.280.700.000", warna: Xwarna2 },
+      { nama: "Exceed MT", harga: "Rp.271.500.000", warna: Xwarna2 },
+      { nama: "GLS CVT", harga: "Rp.267.400.000", warna: Xwarna2 },
+      { nama: "GLS MT", harga: "Rp.258.200.000", warna: Xwarna2 },
     ],
     title: "Dapatkan warna terbaikmu",
     products: [
@@ -770,11 +784,11 @@ export const housesData = [
     surface: "Bensin",
     year: "2016",
     price: "RP. 316.750.000",
-    agent: {
-      image: Agent3,
-      name: "Amado Smith",
-      phone: "0123 456 78910",
-    },
+    // agent: {
+    //   image: Agent3,
+    //   name: "Amado Smith",
+    //   phone: "0123 456 78910",
+    // },
     exterior: [
       {
         name: "New Front Bumper & Front Grille",
@@ -919,12 +933,12 @@ export const housesData = [
       {
         nama: "Premium CVT",
         harga: "Rp.342.650.000",
-        warna: Pwarna1,
+        warna: XCwarna1,
       },
       {
         nama: "MT",
         harga: "Rp.316.750.000",
-        warna: Pwarna1,
+        warna: XCwarna1,
       },
     ],
     title: "Dapatkan warna terbaikmu",
@@ -963,11 +977,11 @@ export const housesData = [
     surface: "4200 sq ft",
     year: "2016",
     price: "Rp. 216.650.000",
-    agent: {
-      image: Agent4,
-      name: "Kaitlyn Gonzalez",
-      phone: "0123 456 78910",
-    },
+    // agent: {
+    //   image: Agent4,
+    //   name: "Kaitlyn Gonzalez",
+    //   phone: "0123 456 78910",
+    // },
     exterior: [
       {
         name: "Desain Grille Baru",
@@ -1012,12 +1026,12 @@ export const housesData = [
       {
         nama: "Pick Up Flat Deck",
         harga: "Rp.222.150.000",
-        warna: Pwarna1,
+        warna: Lwarna1,
       },
       {
         nama: "Cab Chassis",
         harga: "Rp.217.150.000",
-        warna: Pwarna1,
+        warna: Lwarna1,
       },
     ],
     title: "Dapatkan warna terbaikmu",
@@ -1067,8 +1081,12 @@ export const promoData = [
           {
             title:
               "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
-            subtitle:
-              "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+            subtitle: [
+              "DP ringan mulai 10% (Tidak mengikat seluruh cabang), atau Bunga 0% sampai dengan tenor 2 tahun",
+              "Paket Smart Cash dengan bunga 0%, gratis asuransi & potongan biaya administrasi",
+              "Paket Cicilan Pintar",
+              "Bonus Extended Smart Package (dengan tenor minimal 5 tahun)",
+            ],
           },
           {
             title:
@@ -1077,12 +1095,167 @@ export const promoData = [
           {
             title:
               "Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun:",
-            subtitle:
-              "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+            subtitle: [
+              "Biaya Jasa (Untuk semua varian)",
+              "Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet)",
+              "Chemical item: Engine flush, Brake Fluid",
+              "Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 10.000.000/orang*",
+              "Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp 1.400.000 dan berlaku untuk 1 ban*",
+            ],
+          },
+        ],
+      },
+      {
+        nama: "New Xpander",
+        keterangan: [
+          {
+            title:
+              "Program Cashback hingga jutaan rupiah berlaku untuk semua varian (S&K berlaku)",
+          },
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "DP ringan mulai 10% (Tidak mengikat seluruh cabang), atau Bunga 0% sampai dengan tenor 2 tahun",
+              "Paket Smart Cash dengan bunga 0%, gratis asuransi & potongan biaya administrasi",
+              "Paket Cicilan Pintar",
+              "Bonus Extended Smart Package (dengan tenor minimal 5 tahun)",
+            ],
+          },
+          {
+            title: "Gratis kaca film Konica Minolta atau Solargard",
+          },
+          {
+            title:
+              "Gratis Paket SMART Silver untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun:",
+            subtitle: [
+              "Biaya Jasa (Untuk semua varian)",
+              "Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet)",
+              "Chemical item: Engine flush, Brake Fluid",
+              "Asuransi Kecelakaan Diri (Personal Accident) selama 1 tahun, dengan nominal klaim maksimal hingga Rp 5.000.000/orang*",
+              "Asuransi Kerusakan Ban selama 1 tahun, dengan nominal klaim maksimal Rp 1.000.000 dan berlaku untuk 1 ban*",
+            ],
+          },
+        ],
+      },
+      {
+        nama: "New Pajero Sport",
+        keterangan: [
+          {
+            title: "Program Cashback hingga jutaan rupiah (S&K berlaku).",
+          },
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "DP Ringan mulai 15% (12% khusus untuk Sumatera Utara)",
+              "Bunga 0% hingga 2 tahun (khusus varian Dakar 4×2 AY23). Dan Bunga 0% hingga 1 tahun (untuk varian lainnya)",
+              "Paket Smart Cash dengan bunga 0%, potongan biaya administrasi, dan gratis asuransi All Risk hingga 1 tahun. (S&K berlaku)",
+              "Paket Cicilan Pintar",
+              "Bonus Extended Smart Package (dengan tenor minimal 5 tahun)",
+            ],
+          },
+          {
+            title: "Gratis Kaca Film V-Kool",
+          },
+          {
+            title:
+              "Gratis Paket SMART SILVER untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun",
+            subtitle: [
+              "Biaya Jasa (Untuk semua varian)",
+              "Suku cadang (sesuai dengan Service Manual Book)",
+              "Oli MMGO (sesuai dengan Service Manual Book)",
+              "Chemical item: diesel fuel system flush, engine flush",
+            ],
+          },
+        ],
+      },
+      {
+        nama: "Outlander PHEV",
+        keterangan: [
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "Bunga 0% sampai dengan tenor 1 tahun, atau",
+              "Gratis asuransi 2 tahun",
+            ],
+          },
+          {
+            title:
+              "Gratis Paket Free Maintenance untuk Perawatan/Servis Berkala hingga 50.000 km atau 4 tahun:",
+            subtitle: [
+              "Biaya Jasa",
+              "Suku cadang, Mitsubishi Motors Genuine Oil & Brake Fluid (sesuai dengan Jadwal Service Booklet)",
+            ],
+          },
+          {
+            title: "Gratis Kaca Film V-Kool",
+          },
+          {
+            title: "Gratis standard AC Home Charger beserta instalasinya",
+          },
+        ],
+      },
+      {
+        nama: "Triton 4x4",
+        keterangan: [
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "DP ringan mulai 15%, atau ",
+              "Bunga 0% sampai dengan tenor 1 tahun",
+            ],
+          },
+          {
+            title: "Gratis Ban MT untuk varian SC & DC HDX (S&K berlaku)",
+          },
+          {
+            title:
+              "Gratis biaya jasa dan suku cadang (sesuai dengan Service Manual Book) hingga 40.000 km atau 2 tahun untuk semua varian 4×4.",
+          },
+        ],
+      },
+      {
+        nama: "Triton 4x2",
+        keterangan: [
+          {
+            title: "Program pilihan cashback, atau",
+          },
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "DP ringan mulai 15%, atau",
+              "Bunga 0% sampai dengan tenor 1 tahun",
+            ],
+          },
+        ],
+      },
+      {
+        nama: "L-300",
+        keterangan: [
+          {
+            title: "Program pilihan cashback, atau",
+          },
+          {
+            title:
+              "Program pilihan pembiayaan melalui PT. Dipo Star Finance (S&K berlaku):",
+            subtitle: [
+              "DP ringan mulai 10% (Tidak mengikat seluruh cabang)",
+              "Bunga 0% sampai dengan tenor 1 tahun, atau",
+              "Paket SMART Cash dengan bunga 0% dan gratis asuransi serta potongan biaya administrasi",
+            ],
+          },
+          {
+            title: "Hadiah Langsung TV LED 24 inch",
           },
         ],
       },
     ],
+    pengumuman:
+      "Seluruh program memiliki syarat dan ketentuan berlaku. Untuk mengetahui lebih lanjut terkait program ini, anda dapat langsung menghubungi kantor/Showroom dealer Bosowa Berlian terdekat di Kota anda.Untuk informasi lengkap promo Mitsubishi JULI 2023, klik http://bit.ly/TANYABOSOWA atau hubungi Tanya Bosowa di nomor  0852 5554 4464 serta kunjungi outlet Bosowa Berlian terdekat di Kota anda.",
   },
 ];
 
@@ -1109,33 +1282,33 @@ export const navigation = [
   },
 ];
 
-export const testimonial = {
-  title: "What people are saying about us",
-  image: <TestimonialImg />,
-  persons: [
-    {
-      avatar: <Avatar1Img />,
-      name: "1973",
-      occupation: "Manager of The New York Times",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
-    {
-      avatar: <Avatar2Img />,
-      name: "1978",
-      occupation: "Manager of The New York Times",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
-    {
-      avatar: <Avatar3Img />,
-      name: "Paula Pfeffer",
-      occupation: "Manager of The New York Times",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
-  ],
-};
+// export const testimonial = {
+//   title: "What people are saying about us",
+//   image: <TestimonialImg />,
+//   persons: [
+//     {
+//       // avatar: <Avatar1Img />,
+//       name: "1973",
+//       occupation: "Manager of The New York Times",
+//       message:
+//         "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+//     },
+//     {
+//       // avatar: <Avatar2Img />,
+//       name: "1978",
+//       occupation: "Manager of The New York Times",
+//       message:
+//         "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+//     },
+//     {
+//       // avatar: <Avatar3Img />,
+//       name: "Paula Pfeffer",
+//       occupation: "Manager of The New York Times",
+//       message:
+//         "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+//     },
+//   ],
+// };
 
 export const productMobil = {
   title: "Produk Kami",

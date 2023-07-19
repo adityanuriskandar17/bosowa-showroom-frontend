@@ -24,7 +24,7 @@ import Thumbnail from "../components/Thumbnail";
 // icon
 // import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
-const PropertyDetails = () => {
+const CarDetails = () => {
   // get the house id
   const { id } = useParams();
 
@@ -117,4 +117,4 @@ const PropertyDetails = () => {
   );
 };
 
-export default PropertyDetails;
+export default CarDetails;

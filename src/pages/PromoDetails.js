@@ -71,47 +71,44 @@ const PromoDetails = () => {
                 <p className="pb-6 border-b-2 border-gray-500">
                   {house.description2}
                 </p>
-                {/* <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-                  Sportsman do offending supported extremity breakfast by
-                  listening. Decisively advantages nor expression unpleasing she
-                  led met. Estate was tended ten boy nearer seemed. As so seeing
-                  latter he should thirty whence. Steepest speaking up attended
-                  it as. Made neat an on be gave show snug tore.
-                </div> */}
+
                 {house.mobil.map((mbl, index) => (
-                  <div key={index}>
-                    <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">
+                  <div key={index} className="border-b-2 border-gray-500">
+                    <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4 ">
                       {mbl.nama}
                     </h2>
-                    {/* <div className="overflow-hidden rounded-lg border border-gray-200 shadow-md m-5"> */}
+
                     {mbl.keterangan.map((keter, index) => (
                       <div key={index}>
-                        <div className="flex mb-6 lg:last:mb-0">
+                        <div className="flex mb-6 lg:last:mb-0 ">
                           <div className="text-2xl mr-4 lg:text-3xl">-</div>
                           <div>
-                            <h4 className="text-base lg:text-xl font-semibold mb-3">
+                            <h4 className="text-base lg:text-base font-semibold mb-3">
                               {keter.title}
                             </h4>
-                            <div className="flex mb-6 lg:last:mb-0">
-                              {keter.subtitle ? (
-                                <>
-                                  <div className="text-2xl mr-4 lg:text-3xl">
-                                    *
-                                  </div>
-                                  <h6>{keter.subtitle}</h6>
-                                </>
+                            <div className="flex mb-6 lg:last:mb-2 ">
+                              {keter.subtitle && keter.subtitle.length > 0 ? (
+                                <ul className="list-disc">
+                                  {keter.subtitle.map((item, index) => (
+                                    <li
+                                      key={index}
+                                      className="text-justify text-base lg:text-base"
+                                    >
+                                      {item}
+                                    </li>
+                                  ))}
+                                </ul>
                               ) : null}
                             </div>
                           </div>
                         </div>
                       </div>
                     ))}
-                    {/* </div> */}
                   </div>
                 ))}
+                <p className="pb-6 pt-6 text-justify">{house.pengumuman}</p>
               </div>
             </main>
-            {/* main ends here */}
           </div>
         </>
       </div>

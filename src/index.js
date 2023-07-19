@@ -6,15 +6,15 @@ import App from "./App";
 // import router
 import { BrowserRouter as Router } from "react-router-dom";
 // import house context provider
-import HouseContextProvider from "./components/HouseContext";
+import CarContextProvider from "./components/CarContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HouseContextProvider>
+  <CarContextProvider>
     <Router>
       <React.StrictMode>
         <App />
       </React.StrictMode>
     </Router>
-  </HouseContextProvider>
+  </CarContextProvider>
 );

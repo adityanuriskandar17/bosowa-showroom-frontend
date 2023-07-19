@@ -1,21 +1,21 @@
 import React, { useContext } from "react";
 
 // import components
-import CountryDropdown from "./CountryDropdown";
-import PropertyDropdown from "./PropertyDropdown";
-import PriceRangeDropdown from "./PriceRangeDropdown";
+// import CountryDropdown from "./CountryDropdown";
+import CarDropdown from "./CarDropdown";
+// import PriceRangeDropdown from "./PriceRangeDropdown";
 
 // import icons
 import { RiSearch2Line } from "react-icons/ri";
 // import context
-import { HouseContext } from "./HouseContext";
+import { CarContext } from "./CarContext";
 
 const Search = () => {
-  const { handleClick } = useContext(HouseContext);
+  const { handleClick } = useContext(CarContext);
   return (
     <div className="px-[30px] py-6 max-w-[1170px] mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-4 lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg mt-10">
       {/* <CountryDropdown /> */}
-      <PropertyDropdown />
+      <CarDropdown />
       {/* <PriceRangeDropdown /> */}
       <button
         onClick={() => handleClick()}

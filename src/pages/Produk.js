@@ -1,7 +1,7 @@
 import React from "react";
 
 // import components
-import HouseList from "../components/HouseList";
+import HouseList from "../components/CarList";
 import Search from "../components/Search";
 
 const Produk = () => {

@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 // import pages
 import Home from "./pages/Home";
-import PropertyDetails from "./pages/PropertyDetails";
+import CarDetails from "./pages/CarDetails";
 import Produk from "./pages/Produk";
 import WhatsAppButton from "./components/WhatsAppButton";
 import TentangKami from "./pages/TentangKami";
@@ -25,7 +25,7 @@ const App = () => {
       {/* <Header1 /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/property/:id" element={<PropertyDetails />} />
+        <Route path="/car/:id" element={<CarDetails />} />
         <Route path="/promo/:id" element={<PromoDetails />} />
         <Route path="/tentangkami" element={<TentangKami />} />
         <Route path="/produk" element={<Produk />} />

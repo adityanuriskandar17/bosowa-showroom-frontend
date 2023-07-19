@@ -11,11 +11,10 @@ import {
 
 // import images
 import Features1Img from "./assets/img/Miftach1.jpg";
-import Features2Img from "./assets/img/features-2.png";
-import ChairImg from "./assets/img/chair.png";
-import BedImg from "./assets/img/bed.png";
-import CupboardImg from "./assets/img/cupboard.png";
-import LightingImg from "./assets/img/lighting.png";
+// import Features2Img from "./assets/img/features-2.png";
+// import ChairImg from "./assets/img/chair.png";
+// import CupboardImg from "./assets/img/cupboard.png";
+// import LightingImg from "./assets/img/lighting.png";
 import Product1Img from "./assets/img/products/product-1.png";
 import Product2Img from "./assets/img/products/product-2.png";
 import Product3Img from "./assets/img/products/product-3.png";
@@ -27,9 +26,9 @@ import Product8Img from "./assets/img/products/product-8.png";
 import Product9Img from "./assets/img/products/product-9.png";
 import Product10Img from "./assets/img/products/product-10.png";
 import TestimonialImg from "./assets/img/about.jpg";
-import Avatar1Img from "./assets/img/avatar-1.png";
-import Avatar2Img from "./assets/img/avatar-2.png";
-import Avatar3Img from "./assets/img/avatar-3.png";
+// import Avatar1Img from "./assets/img/avatar-1.png";
+// import Avatar2Img from "./assets/img/avatar-2.png";
+// import Avatar3Img from "./assets/img/avatar-3.png";
 
 import logo from "./assets/img/logo1.png";
 // import Avatar4Img from "./assets/img/avatar-4.png";
@@ -119,38 +118,38 @@ export const features = {
     //     "Sometimes features require a short description.  This can be detailed description",
     // },
   ],
-  feature2: {
-    image: <Features2Img />,
-    title: "The Best Furniture Manufacturer of your choice",
-    subtitle:
-      "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
-  },
+  // feature2: {
+  //   image: <Features2Img />,
+  //   title: "The Best Furniture Manufacturer of your choice",
+  //   subtitle:
+  //     "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+  // },
 };
 
-export const newInStore = {
-  title: "New In Store Now",
-  subtitle: "Get the latest items immediately with promo prices",
-  link: "Check all",
-  icon: <IoIosArrowRoundForward />,
-  products: [
-    {
-      name: "chair",
-      image: <ChairImg />,
-    },
-    {
-      name: "bed",
-      image: <BedImg />,
-    },
-    {
-      name: "cupboard",
-      image: <CupboardImg />,
-    },
-    {
-      name: "lighting",
-      image: <LightingImg />,
-    },
-  ],
-};
+// export const newInStore = {
+//   title: "New In Store Now",
+//   subtitle: "Get the latest items immediately with promo prices",
+//   link: "Check all",
+//   icon: <IoIosArrowRoundForward />,
+//   products: [
+//     {
+//       name: "chair",
+//       image: <ChairImg />,
+//     },
+//     {
+//       name: "bed",
+//       image: <BedImg />,
+//     },
+//     {
+//       name: "cupboard",
+//       image: <CupboardImg />,
+//     },
+//     {
+//       name: "lighting",
+//       image: <LightingImg />,
+//     },
+//   ],
+// };
 
 export const products = {
   title: "Produk Kami",
@@ -320,14 +319,14 @@ export const testimonial = {
         "Perusahaan yang bergerak di bidang perdagangan umum bernama CV Moneter (Dealer Datsun) di Makassar, Sulawesi Selatan",
     },
     {
-      avatar: <Avatar2Img />,
+      // avatar: <Avatar2Img />,
       name: "1978",
       occupation: "Manager of The New York Times",
       message:
         "Mendapatkan hak ekslusif sebagai dealer resmi mobil produksi Jepang yakni Datsun untuk Kawasan Indonesia Timur. Pada tahun yang sama, nama perusahaan diganti menjadi PT Moneter Motor.",
     },
     {
-      avatar: <Avatar3Img />,
+      // avatar: <Avatar3Img />,
       name: "1980",
       occupation: "Manager of The New York Times",
       message:

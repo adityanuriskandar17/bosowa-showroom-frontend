@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import { housesData } from "../data";
 import "../slider.css";
-const House = ({ house }) => {
+const Car = ({ house }) => {
   const {
     image,
     imageLgg,
@@ -61,4 +61,4 @@ const House = ({ house }) => {
   );
 };
 
-export default House;
+export default Car;
