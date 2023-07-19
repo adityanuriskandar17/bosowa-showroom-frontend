@@ -17,11 +17,11 @@ const Lineup = () => {
         <div className="font-bold text-4xl">Line Up</div>
       </div>
 
-      <div className="overflow-hidden rounded-lg border border-gray-200 shadow-md m-5">
+      <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-md m-5">
         <table className="table-auto w-full">
           <thead className="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
             <tr>
-              <th className="p-2 whitespace-nowrap">
+              <th className="p-2 whitespace-nowrap min-w-[150px]">
                 <div className="font-semibold text-center">Varian</div>
               </th>
               <th className="p-2 whitespace-nowrap">
