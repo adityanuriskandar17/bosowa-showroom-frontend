@@ -19,7 +19,7 @@ const Thumbnail = () => {
   // const { title, subtitle, buttonText } = hero;
   return (
     <section
-      className="h-[850px] w-full bg-right bg-no-repeat text-gray-100 pt-[111px] pb-[354px] relative mb-24 bg-cover bg-center lg:bg-contain lg:mb-28"
+      className="h-[850px] w-full bg-right bg-no-repeat text-gray-100 pt-[111px] pb-[354px] relative mb-24 bg-cover bg-center lg:bg-center lg:mb-28"
       style={{ backgroundImage: `url(${house.big})` }}
     >
       <div className="container pt-[600px] lg:ml-24 text-left lg:pt-16">
